@@ -43,3 +43,23 @@ Take this example:
    }
  ```
  what **this(dot)something** means is "in *this specific instance* of Person, and only in this specific instance of Person, does some particular condition/rule/property/etc apply.
+ 
+ now that we've got a grasp on **this**, let's use a Constructor to create a Person.
+ 
+ ```
+ function Person (first, last){
+  this.firstName = first,
+  this.lastName = last
+ }
+ 
+ var joe = new Person("Joe", "Biden")
+ 
+ console.log(joe.firstName) // "Joe"
+ 
+ ```
+ **this.firstName** (in this case) refers only to the firstName property of the Person Object joe.  If we create another instance of the Person object, and call it Sally,
+ ` var sally = new Person("Sally", "Ride") `
+ and then we console log 
+ `sally.firstName`,
+ we get the value `"Sally"`
+ 
