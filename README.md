@@ -42,7 +42,7 @@ Take this example:
     this.lastName = last
    }
  ```
- what **this(dot)something** means is "in *this specific instance* of Person, and only in this specific instance of Person, does some particular condition/rule/property/etc apply.
+ what **this(dot)something** means is "in *this specific instance* of Person, and only in this specific instance of Person, does some particular condition/rule/property/etc apply".
  
  now that we've got a grasp on **this**, let's use a Constructor to create a Person.
  
